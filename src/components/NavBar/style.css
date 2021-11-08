@@ -1,0 +1,27 @@
+.NavBar{
+  height: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.NavBar ul{
+  list-style: none;
+  position: relative;
+  left: 50px;
+  float: right;
+  margin-right: 40px;
+}
+
+.NavBar ul li{
+  display: inline-block;
+  line-height: 50px;
+  margin: 0 7px;
+}
+
+.NavBar ul li a{
+  text-transform: uppercase;
+}

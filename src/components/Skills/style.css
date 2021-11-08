@@ -1,0 +1,23 @@
+.skills {
+    flex-grow: 1;
+    margin-top: 5%;
+    padding: 20px;
+}
+
+.technologies{
+  padding: 30px;
+}
+
+.languages{
+  padding: 30px;
+}
+
+.tools{
+  padding: 30px;
+}
+
+@media (min-width: 800px) {
+  .content {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

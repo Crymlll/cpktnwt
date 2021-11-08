@@ -1,0 +1,19 @@
+.projects{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.project-1{
+    padding: 20px;
+}
+
+.project-2{
+    padding: 20px;
+}
+
+.project-3{
+    padding: 20px;
+}
